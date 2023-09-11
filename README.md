@@ -6,7 +6,7 @@
 # BoomBox
 Minimal self-hosted Discord MP3 music streaming BOT for your own Discord server. 
 
-Designed to run Linux systems. It may or may not run on Windows and Apple systems, addapting it to that is on your entirely.
+Designed to run on Linux systems. It may or may not run on your Windows and Apple machines, addapting it for that is on you entirely.
 
 Feature list:
 
