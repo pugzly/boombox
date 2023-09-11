@@ -46,6 +46,15 @@ cd boombox
 ```
 3. Edit file 'boombox.py' to add API TOKEN and change other preferences (feel free to change code to store token in env, encypted on blockchain, or under your mom's pillow)
 
+```
+# Edit bellow to add your own details
+
+DISCORD_API_TOKEN = 'M2391576SZD-------REPLACE-THIS-WITH-DISCORD-API-TOKEN-OF-YOUR-BOT------Nj02947wND'
+CREATOR_ID = 1000006900000001   # YOUR Discord User ID, only for command '.quit'
+MUSIC_DIR = '/home/user/mp3'    # Path to where your MP3's are stored
+PREFIX = '.'                    # Replace this, if you want all your commands start with anything other than '.'
+```
+
 5. Run
 ```
 python3 boombox.py
