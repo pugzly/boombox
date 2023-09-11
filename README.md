@@ -18,6 +18,10 @@ Feature list:
 
 '.quit' - stop bot and exit progma (Creator only, if add your Discord ID to boombox.py)
 
+## Limits
+Not designed for and not intended use case, but it will run fine on multiple servers at the same time, but with some eastetic issues:
+Status "playing" will update globaly every time it's shuffling for any of the servers - I have no plans to do anything about that.
+
 ## Requirements (on my Debian VPS at least):
 
 ```
