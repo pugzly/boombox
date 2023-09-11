@@ -16,7 +16,7 @@ Feature list:
 
 '.skip' - skip to next random mp3 file (Admin only)
 
-'.quit' - stop bot and exit progma (Creator only, if add your Discord ID to boombox.py)
+'.quit' - stop bot and exit progma (Creator only, if you add your Discord ID to boombox.py)
 
 ## Limits
 Not designed for and not intended use case, but it will run fine on multiple servers at the same time, but with some eastetic issues:
