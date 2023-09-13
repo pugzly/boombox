@@ -1,8 +1,6 @@
 #
 #         BoomBox - Discord MP3 streaming bot
 #
-#
-#
 #  Requirements (on my Debian VPS server, at least):
 #       sudo apt install ffmpeg
 #       python3 -m pip install -U discord.py
@@ -10,18 +8,15 @@
 #
 #  @pooodle
 
-
 import discord, os, random, asyncio
 from discord.ext import commands, tasks
 
-
 ###  Edit bellow to fit your needs and preferences
-
 DISCORD_API_TOKEN = 'M2391576SZD-------REPLACE-THIS-WITH-DISCORD-API-TOKEN-OF-YOUR-BOT------Nj02947wND'
 CREATOR_ID = 1000006900000001   # YOUR Discord User ID, only for command '.quit'
 MUSIC_DIR = '/home/user/mp3'    # Path to where your MP3's are stored
 PREFIX = '.'                    # Replace this, if you want all your commands start with anything other than '.'
-
+###
 
 bot = commands.Bot(command_prefix=PREFIX, intents=discord.Intents.all())
 
