@@ -28,10 +28,6 @@ bot = commands.Bot(command_prefix=PREFIX, intents=discord.Intents.all())
 @bot.event
 async def on_ready():
     print(f'{bot.user.name} has connected to Discord!')
-    #for guild in bot.guilds:
-    #    for channel in guild.voice_channels:
-    #        if channel.name == 'General':
-    #            await play_random_song(channel)
 
 async def play_random_song(guild_id):
     channel = None
